@@ -36,6 +36,6 @@ digraph G {
         i2 -> h1 [headlabel="0.3" labelfontsize=12 labeldistance=2 arrowhead=open penwidth=0.75 arrowsize=0.75];
         i2 -> h2 [headlabel="0.5" labelfontsize=12 labeldistance=2.25 arrowhead=open penwidth=0.75 arrowsize=0.75];
 
-        h1 -> O1
-        h2 -> O1
+        h1 -> O1 [headlabel="0.3" labelfontsize=12 labeldistance=2.5 arrowhead=open penwidth=0.75 arrowsize=0.75];
+        h2 -> O1 [headlabel="0.4" labelfontsize=12 labeldistance=2.5 arrowhead=open penwidth=0.75 arrowsize=0.75];
 }
