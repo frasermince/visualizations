@@ -32,23 +32,23 @@ digraph G {
 		label="layer 3";
 	}
 
-        i1 -> h1;
-        i1 -> h2;
-        i1 -> h3;
+        i1 -> h1 [labelfontsize=12 arrowhead=open penwidth=0.75 arrowsize=0.75];
+        i1 -> h2 [labelfontsize=12 arrowhead=open penwidth=0.75 arrowsize=0.75];
+        i1 -> h3 [labelfontsize=12 arrowhead=open penwidth=0.75 arrowsize=0.75];
 
-        i2 -> h1;
-        i2 -> h2;
-        i2 -> h3;
+        i2 -> h1 [labelfontsize=12 arrowhead=open penwidth=0.75 arrowsize=0.75];
+        i2 -> h2 [labelfontsize=12 arrowhead=open penwidth=0.75 arrowsize=0.75];
+        i2 -> h3 [labelfontsize=12 arrowhead=open penwidth=0.75 arrowsize=0.75];
  
-        i3 -> h1;
-        i3 -> h2;
-        i3 -> h3;
+        i3 -> h1 [labelfontsize=12 arrowhead=open penwidth=0.75 arrowsize=0.75];
+        i3 -> h2 [labelfontsize=12 arrowhead=open penwidth=0.75 arrowsize=0.75];
+        i3 -> h3 [labelfontsize=12 arrowhead=open penwidth=0.75 arrowsize=0.75];
 
-        h1 -> O1
-        h2 -> O1
-        h3 -> O1
+        h1 -> O1 [labelfontsize=12 arrowhead=open penwidth=0.75 arrowsize=0.75];
+        h2 -> O1 [labelfontsize=12 arrowhead=open penwidth=0.75 arrowsize=0.75];
+        h3 -> O1 [labelfontsize=12 arrowhead=open penwidth=0.75 arrowsize=0.75];
 
-        h1 -> O2
-        h2 -> O2
-        h3 -> O2
+        h1 -> O2 [labelfontsize=12 arrowhead=open penwidth=0.75 arrowsize=0.75];
+        h2 -> O2 [labelfontsize=12 arrowhead=open penwidth=0.75 arrowsize=0.75];
+        h3 -> O2 [labelfontsize=12 arrowhead=open penwidth=0.75 arrowsize=0.75];
 }
