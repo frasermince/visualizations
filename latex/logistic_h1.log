@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  18 JAN 2019 16:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  18 JAN 2019 15:57
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
-**hidden.tex
-(./hidden.tex
+**logistic_h1.tex
+(./logistic_h1.tex
 LaTeX2e <2018-04-01> patch level 2
 Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
 (/usr/local/texlive/2018/texmf-dist/tex/latex/standalone/standalone.cls
@@ -71,25 +71,25 @@ File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \bibindent=\dimen102
 )
 \sa@box=\box26
-runsystem(pdflatex  -shell-escape  -jobname 'hidden' '\expandafter\def\csname s
-a@internal@run\endcsname{1}\input{hidden}')...executed.
+runsystem(pdflatex  -shell-escape  -jobname 'logistic_h1' '\expandafter\def\csn
+ame sa@internal@run\endcsname{1}\input{logistic_h1}')...executed.
 
 \sa@read=\read1
-runsystem(convert -density 1000 -units PixelsPerInch hidden.pdf -resize 1000 -q
-uality 90 hidden.png)...executed.
+runsystem(convert -density 1000 -units PixelsPerInch logistic_h1.pdf -resize 50
+0 -quality 90 logistic_h1.png)...executed.
 
 
 Class standalone:
-Output written on hidden.png.
+Output written on logistic_h1.png.
  ) ) 
 Here is how much of TeX's memory you used:
  704 strings out of 492649
- 11209 string characters out of 6129622
- 69998 words of memory out of 5000000
+ 11229 string characters out of 6129622
+ 70004 words of memory out of 5000000
  4645 multiletter control sequences out of 15000+600000
  3640 words of font info for 14 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 34i,1n,56p,233b,55s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 34i,1n,56p,206b,55s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 No pages of output.
 PDF statistics:
@@ -97,98 +97,33 @@ PDF statistics:
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
- line 472.
-LaTeX Info: Redefining \dots on input line 475.
-LaTeX Info: Redefining \cdots on input line 596.
-\Mathstrutbox@=\box27
-\strutbox@=\box28
-\big@size=\dimen105
-LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
-\macc@depth=\count96
-\c@MaxMatrixCols=\count97
-\dotsspace@=\muskip10
-\c@parentequation=\count98
-\dspbrk@lvl=\count99
-\tag@help=\toks17
-\row@=\count100
-\column@=\count101
-\maxfields@=\count102
-\andhelp@=\toks18
-\eqnshift@=\dimen106
-\alignsep@=\dimen107
-\tagshift@=\dimen108
-\tagwidth@=\dimen109
-\totwidth@=\dimen110
-\lineht@=\dimen111
-\@envbody=\toks19
-\multlinegap=\skip44
-\multlinetaggap=\skip45
-\mathdisplay@stack=\toks20
-LaTeX Info: Redefining \[ on input line 2817.
-LaTeX Info: Redefining \] on input line 2818.
-)
-(./hidden.aux)
-\openout1 = `hidden.aux'.
+Bad math environment delimiter.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.6 \begin{bmatrix}
-                   
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.8 \end{bmatrix}
-                 
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.9 \cdot
-         
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.20 \]
-       
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 \[ logistic(h1) = 0.6456563 \]
+                                  
 ? 
 [1
 
 {/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-(./hidden.aux) ) 
+(./logistic_h1.aux) ) 
 Here is how much of TeX's memory you used:
- 1313 strings out of 492649
- 18186 string characters out of 6129622
- 80807 words of memory out of 5000000
- 5231 multiletter control sequences out of 15000+600000
- 4094 words of font info for 16 fonts, out of 8000000 for 9000
+ 702 strings out of 492649
+ 11247 string characters out of 6129622
+ 69507 words of memory out of 5000000
+ 4637 multiletter control sequences out of 15000+600000
+ 3640 words of font info for 14 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 35i,8n,56p,289b,114s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmex10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmmi10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmr10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmsy10.pfb>
-Output written on hidden.pdf (1 page, 34744 bytes).
+ 35i,4n,56p,262b,102s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2018/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmr10.pfb>
+Output written on logistic_h1.pdf (1 page, 13336 bytes).
 PDF statistics:
- 24 PDF objects out of 1000 (max. 8388607)
- 16 compressed objects within 1 object stream
+ 12 PDF objects out of 1000 (max. 8388607)
+ 7 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

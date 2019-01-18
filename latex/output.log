@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  18 JAN 2019 16:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  18 JAN 2019 16:26
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
-**hidden.tex
-(./hidden.tex
+**output.tex
+(./output.tex
 LaTeX2e <2018-04-01> patch level 2
 Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
 (/usr/local/texlive/2018/texmf-dist/tex/latex/standalone/standalone.cls
@@ -71,20 +71,20 @@ File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \bibindent=\dimen102
 )
 \sa@box=\box26
-runsystem(pdflatex  -shell-escape  -jobname 'hidden' '\expandafter\def\csname s
-a@internal@run\endcsname{1}\input{hidden}')...executed.
+runsystem(pdflatex  -shell-escape  -jobname 'output' '\expandafter\def\csname s
+a@internal@run\endcsname{1}\input{output}')...executed.
 
 \sa@read=\read1
-runsystem(convert -density 1000 -units PixelsPerInch hidden.pdf -resize 1000 -q
-uality 90 hidden.png)...executed.
+runsystem(convert -density 1000 -units PixelsPerInch output.pdf -resize 1000 -q
+uality 90 output.png)...executed.
 
 
 Class standalone:
-Output written on hidden.png.
+Output written on output.png.
  ) ) 
 Here is how much of TeX's memory you used:
- 704 strings out of 492649
- 11209 string characters out of 6129622
+ 703 strings out of 492649
+ 11203 string characters out of 6129622
  69998 words of memory out of 5000000
  4645 multiletter control sequences out of 15000+600000
  3640 words of font info for 14 fonts, out of 8000000 for 9000
@@ -128,8 +128,8 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
 LaTeX Info: Redefining \[ on input line 2817.
 LaTeX Info: Redefining \] on input line 2818.
 )
-(./hidden.aux)
-\openout1 = `hidden.aux'.
+(./output.aux)
+\openout1 = `output.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
 LaTeX Font Info:    ... okay on input line 3.
@@ -165,17 +165,17 @@ l.9 \cdot
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.20 \]
+l.18 \]
        
 ? 
 [1
 
 {/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-(./hidden.aux) ) 
+(./output.aux) ) 
 Here is how much of TeX's memory you used:
- 1313 strings out of 492649
- 18186 string characters out of 6129622
- 80807 words of memory out of 5000000
+ 1312 strings out of 492649
+ 18180 string characters out of 6129622
+ 79807 words of memory out of 5000000
  5231 multiletter control sequences out of 15000+600000
  4094 words of font info for 16 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -185,7 +185,7 @@ Here is how much of TeX's memory you used:
 cm/cmmi10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/c
 m/cmr10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/
 cmsy10.pfb>
-Output written on hidden.pdf (1 page, 34744 bytes).
+Output written on output.pdf (1 page, 34484 bytes).
 PDF statistics:
  24 PDF objects out of 1000 (max. 8388607)
  16 compressed objects within 1 object stream
