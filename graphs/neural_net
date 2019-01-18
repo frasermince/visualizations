@@ -3,9 +3,9 @@ digraph G {
   rankdir=LR
 	splines=line
   nodesep=.05;
-        
+
   node [label=""];
-        
+
   subgraph cluster_0 {
     color=white;
     node [style=solid,color=blue4, shape=circle];
@@ -21,6 +21,7 @@ digraph G {
     h2 [label="h2"];
     h3 [label="h3"];
     h1 [label="h1"];
+    b1 [label="b1" color=grey];
     label = "layer 2";
   }
 
@@ -29,6 +30,7 @@ digraph G {
 		node [style=solid,color=seagreen2, shape=circle];
 		O1 [label="o1"];
 		O2 [label="o2"];
+    b2 [label="b2" color=grey];
 		label="layer 3";
 	}
 
